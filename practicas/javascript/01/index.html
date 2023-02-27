@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    
+    <div class="uno">
+      <form action="">
+          <fieldset>
+              <label for="">0
+                  <button onclick="masvida()">+5</button>
+                </label>
+          </fieldset>
+      </form>
+    </div>
+
+<!-- Esta forma de enviar datos con "onclick" quedo fuera del Estandar-->
+    <div class="uno">
+        <form action="">            
+            <fieldset>
+                <legend>Formulari 1</legend>
+                    <label for="">Form N1</label>
+                    <input id="precio" type="number">
+                    <input id="cantidad" type="number">
+                    <button onclick="enviarDatos()">enviar</button>
+                </fieldset>
+        </form>
+    </div>
+    
+    <div class="uno">
+        <form action="|">
+                <fieldset>
+                <label for="">Form N2</label>
+                    <input type="button" name="uno" id="uno" value="10">
+                    <input type="button" name="dos" id="dos" value="20">
+                </fieldset>     
+            </form>
+    </div>
+    
+    <div class="uno">
+        <form action="">
+                <fieldset>
+                <label for="">Form N3</label><br>
+                    <button type="" id="nada" value="5">a</button>
+                </fieldset>
+            </form>
+    </div>
+    
+    <div id="" class="uno">
+        <form action="">
+                <fieldset>
+                    <label for="dato1">Form N4</label>
+                    <input name="dato1"  id="dato1" type="number" class="dos" min="1" required >
+                    <input id="dato2" type="number" class="dos" min="1" required >
+                    <input id="enviar" type="submit" value="enviar datos">
+            
+                </fieldset>
+            </form>
+    </div>
+
+    <div class="uno">
+        <form action="">
+            <fieldset>
+                <legend>Formulario 5</legend>
+                <label for="numero1">form N5</label>
+                    <input type="text" id="numero1" name="numero1" placeholder="ingrese un numero" required>
+                    <input type="text" id="numero2" placeholder="ingrese un numero" required>
+                    <button>comparar</button>
+            </fieldset>
+        </form>       
+    </div>
+    
+    
+    <script src="ObtenerDatos.js"></script>
+    
+    <!-- <script src="java.js"></script> -->
+    
+</body>
+</html>
