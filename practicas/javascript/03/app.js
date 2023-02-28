@@ -4,7 +4,7 @@ const submit = document.getElementById('submit')
 const incrustar = document.getElementById('incrustar')
 
 
-Itext = ""
+// Itext = ""
 
  form[1].addEventListener('click',(e) => {
         // e.preventDefault()    
@@ -14,15 +14,16 @@ Itext = ""
         const ItemList = document.createElement('li')
         ItemList.textContent = Itext
         incrustar.children[0].appendChild(ItemList)
+        console.log(ItemList.textContent)
 })
 
-console.log(Itext)
+// console.log(Itext)
 // input.addEventListener('keyup',(e)=>{
 //     console.log(e)
     
 // })
 
-console.log(incrustar.children[0])
+// console.log(incrustar.children[0])
 
 
 
