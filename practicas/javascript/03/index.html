@@ -8,20 +8,46 @@
     <title>Incrustar Datos</title>
 </head>
 <body>
+    <!-- //Section 1.0// -->
     <section>
+        <h2>Primer prueba de Incrustar texto en el HTML</h2>
         <form id="form">
-           <label for="input">Ingrese algo</label> <input id="input" type="text" name="datos">
+           <label for="input">Ingrese algo a la lista</label> <input id="input" type="text" name="datos">
             <input id="submit" type="button" value="enviar">
         </form>
     </section>
 
+    <!-- //section 1.1// -->
+    
     <section>
-        <div id="incrustar">
+        <div id="incrustar" class="incrustar">
+            <h3>Lista</h3>
             <ol>
-
+                
             </ol>
         </div>
     </section>
+
+    <!-- //section 2.0// -->
+
+    <section>
+
+        <h2>Incrustar con preguntas y respuestas</h2>
+        <form action="" id="formQA">
+            <p id="pregunta"><strong>Pregunta N1: Cuanto es 2+2</strong></p>
+            <input type="text" name="respuesta" id="respuesta">
+            <input id="submitQA" type="button" value="enviar">    
+        </form>
+    </section>
+
+    <section>
+        <div id="IncrusResul" class="incrustar">
+            <h2>Respuesta:  <span id="span"></span></h2>
+            
+
+        </div>
+    </section>
+
     
     <script src="app.js"></script>
 </body>
