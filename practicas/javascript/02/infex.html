@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Wolves solicitud</title>
+</head>
+<body>
+   
+    <section>
+        <div class="info">
+            <p>1) para más detalle sobre nuestros servicios</p>
+            
+            <p>
+                ¡INFORMACIÓN! Ofrecemos una variedad de servicios para satisfacer sus necesidades de envío y logística incluyendo: Envíos flex envíos particulares servicios de E-commerce almacenamiento y distribución cobros contra entrega y moto mensajería empresarial.
+                Si necesita enviar un viaje particular el mismo día, asegúrese de realizar su pedido antes de las 14:00 pm. Para cualquier otra consulta o pedido, nos estaremos comunicando para aclarar cualquier duda.
+            </p>
+        </div>
+        <div class="info">
+            <p>2) para ver nuestras tarifas</p>
+            
+            <p>
+                Las tarifas para los viajes particulares se calculan por un valor de 100 pesos por kilometraje recorrido, mientras que los viajes programados o flex tienen una tarifa plana por cordon logistico. CABA = 400$, Cordon 1 = 550$, Cordon 2 = 750$, Cordon 3 = 800$. Para observar bien las zonas puede solicitar el mapa de los cordones en nuestro catálogo de WhatsApp o si bien desea podemos enviarle toda la información necesaria. Su cotización la puede solicitar y le estaremos respondiendo en la brevedad posible.
+            </p>
+        </div>
+        <div class="info">
+            <P>3) para ver horarios de búsqueda y entrega.</P>
+            
+            <p>
+                Horarios de Recoleccion y Busqueda de paqueteria:
+                Desde las 2:00 pm a 18:00 pm.
+                Horarios de repartos y Entregas: desde las 8:00 am a 22:00pm. Asi mismo todos los paquetes recogidos despues de las 2:00pm seran entregados apartir del dia Siguiente.
+
+            </p>
+        </div>
+    </section>
+    <section class="section">
+        <h2>Cotizar envio</h2>
+    
+        <form id="form" action="" class="form">
+            <label for="name"><strong>Nombre: </strong></label>
+            <input type="text" name="name" id="name"><br>
+            <label for="particular"><strong> Particulares: </strong></label>
+            <input id="particular" type="radio" name="tipoenvio" value="particular" checked>
+            
+            <label for="programado"><strong> programados: </strong></label>
+            <input id="programado" type="radio" name="tipoenvio" value="programado"><br>
+            
+            <!-- Particular -->
+            <label for="retiro">Direccion de retiro: </label>
+            <input id="retiro" type="text" name="DirRetiro"><br>
+            <label for="entrega">Direncion de entrega</label>
+            <input id="entrega" type="text" name="DirEntrega" ><br>
+            
+            <br>
+
+            <!-- Programado -->
+            <label for="zona">Selecione Cordon</label>
+            <select name="zona" id="zona">
+                <optgroup label="CABA">
+                    <option value="Z1">Cordon 1</option>
+                    <option value="Z2">Cordon 2</option>
+                    <option value="Z3">Cordon 3</option>
+                </optgroup>
+                <optgroup label="Lomas de Zamora">
+                    <option value="LZ1">Cordon 1</option>
+                    <option value="LZ2">Cordon 2</option>
+                    <option value="LZ3">Cordon 3</option>
+                </optgroup>                
+            </select><br>
+
+            <label for="cantidad">Cantidad de paquetes</label>
+            <input id="cantidad" type="number" name="cantidad">
+
+
+
+
+        </form>
+    </section>
+    <section>
+
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+body{
+    background-color: silver;
+}
+
+
+.info{
+    background-color: steelblue;
+    /*backcolorsoloparasaberelespacioqueocupa*/border: solid 2px slategrey;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    padding: 1px 10px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    height: 40px;
+    overflow: hidden;
+    /* max-height: 220px; */
+    /* min-height: 40px; */
+}
+.section{
+    text-align: center;
+}
+
+.form{
+    background-color: skyblue;
+    border: 3px skyblue;
+    border-radius: 25px;
+    height: 200px;
+    margin: 1px 10px;
+    padding-top: 10px;
+    text-align: center;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
