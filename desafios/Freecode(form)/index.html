@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form Challenge</title>
+</head>
+<body>
+    <h1 id="title">Lorem, ipsum.</h1>
+    <p id="description">Lorem ipsum dolor sit amet consectetur.</p>
+    <form id="survey-form" method="post" action="">
+        <fieldset>
+            <label id="name-label" for="name">Firts Name: <input id="name" type="text" name="name" placeholder="Name" required></label>            
+            <label id="email-label" for="email">Email: <input id="email" type="email" name="email" placeholder="examplo@examplo.com" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"></label>
+            <label id="number-label" for="number">Age: <input type="number" name="age" id="number" min="13" max="120" placeholder="18"></label>
+            <label for="select">Which option best describes your current role?
+                <select name="dropdown" id="dropdown">
+                    <option disabled value="">Select current role</option>
+                    <option value="student">Student</option>
+                    <option value="job">Full Time Job</option>
+                    <option value="learner">Full Time Learner</option>
+                </select>
+            </label>
+            
+            
+        
+        
+        </fieldset>
+    </form>
+</body>
+</html>
