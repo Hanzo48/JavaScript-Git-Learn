@@ -2,9 +2,9 @@ body{
     background-color: rgb(224, 221, 221);
 }
 
-div{
+/* div{
     display: block;
-}
+} */
 
 .container{
     display: flex;
@@ -14,7 +14,6 @@ div{
     border-bottom: double 5px rgba(236, 207, 190, 0.76); height: 80px;
     margin: -10px;
     font-weight: bold;
-    
 }
 
 .nav0{
@@ -35,22 +34,23 @@ div{
     margin: 15px 5px;
     box-shadow: 0px 3px 10px rgb(0, 0, 0);
     cursor: pointer;
+    
 }
 
 .one:hover{ 
         /* background-color: blue; */
         /* transition-delay: 0.5s; */
         position: relative; /* sin esto no funciona*/
-        bottom: -5px;
+        bottom: -20px;
 }
 
 .two:hover{
         position: relative; 
-        bottom: -5px;
+        bottom: -20px;
 
 }
 
 .three:hover{
         position: relative;
-        bottom: -5px;
+        bottom: -20px;
 }
